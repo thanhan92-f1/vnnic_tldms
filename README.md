@@ -1,6 +1,6 @@
-# Module WHMCS W2W_VNNIC
+# Module WHMCS HiTechCloud_VNNIC
 
-**W2W_VNNIC** là module mở rộng dành cho hệ thống quản trị Webhosting WHMCS, nhằm tự động hóa việc kết nối dữ liệu địa danh và gửi báo cáo biến động (VNNIC-07) cũng như báo cáo tên miền duy trì (VNNIC-06) đến hệ thống của VNNIC thông qua HTTP API (Guzzle).
+**HiTechCloud_VNNIC** là module mở rộng dành cho hệ thống quản trị Webhosting WHMCS, nhằm tự động hóa việc kết nối dữ liệu địa danh và gửi báo cáo biến động (VNNIC-07) cũng như báo cáo tên miền duy trì (VNNIC-06) đến hệ thống của VNNIC thông qua HTTP API (Guzzle).
 
 ## Yêu Cầu Cài Đặt Khung
 - WHMCS v8.x trở lên.
