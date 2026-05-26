@@ -8,7 +8,7 @@ require_once __DIR__ . '/../../../init.php';
 require_once __DIR__ . '/lib/Auth.php';
 require_once __DIR__ . '/lib/ApiClient.php';
 
-use W2w\\Vnnic\Lib\ApiClient;
+use HiTechCloud\\Vnnic\Lib\ApiClient;
 
 if (php_sapi_name() !== 'cli' && !isset($_GET['admin_test'])) {
     die("Vui lòng truy cập qua SSH Terminal (CLI) hoặc thêm tham số ?admin_test=1 vào đường dẫn.");
