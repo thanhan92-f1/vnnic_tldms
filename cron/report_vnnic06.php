@@ -9,7 +9,7 @@ require_once __DIR__ . '/../../../../init.php';
 require_once __DIR__ . '/../lib/Auth.php';
 require_once __DIR__ . '/../lib/ApiClient.php';
 
-use W2w\\Vnnic\Lib\ApiClient;
+use HiTechCloud\\Vnnic\Lib\ApiClient;
 use WHMCS\Database\Capsule;
 
 // Security layer: chặn web request, chỉ chấp nhận php-cli.
