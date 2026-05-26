@@ -11,7 +11,7 @@ require_once __DIR__ . '/../lib/Auth.php';
 require_once __DIR__ . '/../lib/ApiClient.php';
 require_once __DIR__ . '/../lib/LocationSync.php';
 
-use W2w\\Vnnic\Lib\LocationSync;
+use HiTechCloud\\Vnnic\Lib\LocationSync;
 use WHMCS\Database\Capsule;
 
 // Chỉ cấp quyền chạy qua CLI hoặc nếu có khoá bảo mật.
