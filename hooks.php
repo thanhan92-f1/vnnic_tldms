@@ -65,7 +65,7 @@ add_hook('AfterModuleCreate', 1, function($vars) {
 
         $domainId = isset($vars['params']['domainid']) ? $vars['params']['domainid'] : 0;
         if ($domainId) {
-            $reporter = new \W2w\\Vnnic\Lib\ReportVNNIC07();
+            $reporter = new \HiTechCloud\\Vnnic\Lib\ReportVNNIC07();
             $reporter->sendFluctuationReport($domainId, 'ADD');
         }
     }
@@ -82,7 +82,7 @@ add_hook('DomainEdit', 1, function($vars) {
         require_once __DIR__ . '/lib/ApiClient.php';
         require_once __DIR__ . '/lib/ReportVNNIC07.php';
 
-        $reporter = new \W2w\\Vnnic\Lib\ReportVNNIC07();
+        $reporter = new \HiTechCloud\\Vnnic\Lib\ReportVNNIC07();
         $reporter->sendFluctuationReport($domainId, 'CHANGE');
     }
 });
