@@ -1,6 +1,6 @@
 <?php
 
-namespace W2w\\Vnnic\Lib;
+namespace HiTechCloud\\Vnnic\Lib;
 
 if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
